@@ -65,7 +65,7 @@ void loop()
   }
   
   if(stopped){
-    Serial.println("MESSAGE SENT");
+    Serial.println("M");
   }
   lastState = switchState;
   stopped = 0;
